@@ -1,0 +1,57 @@
+@font-face {
+    font-family: test;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: test;
+}
+#color{
+    color: hsl(75, 94%, 57%) ;
+}
+#name{
+    font-size: 25px;
+}
+.body{
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    top: 15vh;
+    position: relative;
+    bottom: 40vh;
+    border-radius: 10px;
+}
+#quotetext{
+    font-size: smaller;
+}
+.text{
+    line-height: 5px;
+    margin-bottom: 40px;
+}
+#button{
+    text-align: center;
+    background-color:hsl(0, 0%, 20%) ;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+#button:hover ,#button:active{
+    background-color:hsl(75, 94%, 57%)
+    ;
+    color:hsl(0, 0%, 20%) ;
+}
+#image{
+    border-radius: 50%;
+    height: 100px;
+}
+/*Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+*/
